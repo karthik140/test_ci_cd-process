@@ -39,8 +39,9 @@
 						<environment>${env}</environment>
 						<applicationName>${appname}</applicationName>
 						<businessGroup>${business}</businessGroup>
-						<workerType>{vCore}</workerType>
-						<workers>${workers}</workers>
+						<workerType>Micro</workerType>
+						<region>eu-west-2</region>
+						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 					<classifier>mule-application</classifier>
